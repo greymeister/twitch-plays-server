@@ -1,0 +1,14 @@
+# twitch-plays-server config
+---
+irc_nick: user
+irc_login: user
+irc_password: oauth:blahblahblah
+irc_host: irc.twitch.tv
+irc_port: 6667
+channels:
+- "#your_channel"
+rabbit_login: bot
+rabbit_password: botpass
+rabbit_host: localhost
+rabbit_port: 5672
+rabbit_queue: bot.twitch_plays_q
