@@ -22,5 +22,3 @@ have RabbitMQ running with the proper setup and credentials for this to work.
 Run <code>bundle install</code> to install gem dependencies.  Then run the following:
 
     ruby twitch-plays.rb
-
-Tests can be run by typing <code>rake</code> or <code>rspec spec</code>.
